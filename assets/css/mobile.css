@@ -135,6 +135,7 @@ img {
    
 /* Social icons */                
 #social {
+    color: #ffffff;
     font-size: 30px;
     padding-top: 10px;
     letter-spacing: 3px;
@@ -144,22 +145,6 @@ img {
     -moz-transition-duration: 0.5s;
     -o-transition-duration: 0.5s;
 }           
-
-.social-li:hover {
-    color: #0077B5;
-}
-
-.social-tw:hover {
-    color: #4099FF;
-}
-
-.social-gh:hover {
-    color: #FFFFFF;
-}
-
-.social-em:hover {
-    color: #f39c12;
-}
 
 /* Resume button */
 .btn-xlarge {
