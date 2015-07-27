@@ -1,10 +1,7 @@
 <!-- TODO:
-footer don;t cut off resume
-social icons color
-google analytics
 host onto server
-update blurb/content
 
+update blurb/content
 projects?
 clickable navbar?
 -->
@@ -17,7 +14,18 @@ clickable navbar?
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="../../docs-assets/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/img/favicon.png">
+
+    <!--Google Analytics -->
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-65626978-1', 'auto');
+	  ga('send', 'pageview');
+	</script>
 
     <title>David Kong</title>
 
@@ -35,11 +43,11 @@ clickable navbar?
     <!-- Static navbar -->
     <div class="navbar navbar-inverse navbar-static-top">
     	<div class="container">
-	    	<a class="navbar-brand" href="index.html">DAVID KONG</a>
-	        <div class="text-right">
-	            <a href="https://www.linkedin.com/profile/view?id=188609475"><i id="social" class="fa fa-linkedin-square fa-3x social-li"></i></a>
-	            <a href="https://www.twitter.com/davidxkong"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
-	            <a href="https://www.github.com/kongd"><i id="social" class="fa fa-github-square fa-3x social-gh"></i></a>
+	    	<a class="navbar-brand" href="index.html">David Kong</a>
+	        <div class="social-icons text-right">
+	            <a href="http://linkd.in/1I3rPe9"><i id="social" class="fa fa-linkedin-square fa-3x social-li"></i></a>
+	            <a href="http://bit.ly/1Ipds7J"><i id="social" class="fa fa-twitter-square fa-3x social-tw"></i></a>
+	            <a href="http://bit.ly/1LKUhrC"><i id="social" class="fa fa-github-square fa-3x social-gh"></i></a>
 	            <a href="mailto:kongxdavidx+website@gmail.com"><i id="social" class="fa fa-envelope-square fa-3x social-em"></i></a>
 			</div>
 		</div>
@@ -50,33 +58,32 @@ clickable navbar?
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2 centered">
-
 					<img src="assets/img/face.png" alt="David Kong">
 					<h1>Hey There!</h1>
 					<p>I'm David, a Bay Area native studying computer science at the University of Michigan. At school, I handle student affairs at <a href="http://esg.engin.umich.edu"> Engineering Student Government (ESG) </a> and organize logistics for <a href="http://mhacks.org">MHacks</a>.</p>
 					<p>Thanks for stopping by! Feel free to contact me if you have any questions.</p>
-				
 				</div>
 			</div>
 	    </div>
 	</div>
 
-	<div class="span7 text-center">
-		<a href="https://www.dropbox.com/s/wncaa1etrny5tzj/davidkong.pdf?dl=0" class="btn btn-primary btn-xlarge">Resume</a>
+	<!-- Resume button -->
+	<div class="resbut span7 text-center">
+		<a href="http://bit.ly/1U1ilb1" class="btn btn-primary btn-xlarge">Resume</a>
 	</div>
 	
-
   </body>
 
   <!-- +++++ Footer Section +++++ -->
 	
 	<div id="footer">
 		<div class="container">
-			<p>© David Kong 2015. All rights reserved.</p>
+			<h5>© David Kong 2015. All rights reserved.</h5>
+			<h6>Source on <a href="https://github.com/kongd/david-web">GitHub</a></h6>
 		</div>
 	</div>
 
-	    <!-- Bootstrap core JavaScript
+	<!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/bootstrap.min.js"></script>

@@ -1,12 +1,3 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: STANLEY - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
-
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
@@ -33,13 +24,23 @@ h1 {
 	margin-bottom: 30px;
 }
 
-
-
 /* Paragraph & Typographic */
 p {
     line-height: 28px;
     margin-bottom: 25px;
     font-size: 16px;
+}
+
+h5 {
+    margin-top: 1px;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h6 {
+    color: white;
+    margin-bottom: 10px;
 }
 
 .centered {
@@ -86,8 +87,8 @@ a:after {
 
 .navbar {
 	text-transform: uppercase;
-	margin-bottom: 0px;
-    padding-top:10px;
+	padding-bottom: 10px;
+    padding-top:15px;
 }
 
 .navbar-inverse {
@@ -104,8 +105,7 @@ a:after {
 }
 
 .navbar-brand {
-	font-weight: 700;
-	font-size: 20px;
+	font-size: 30px;
 	letter-spacing: 2px;
 }
 
@@ -130,14 +130,12 @@ a:after {
 	padding-bottom: 50px;
 }
 
-
 /* +++++ WRAP SECTIONS +++++ */
 
 #ww {
 	padding-top: 70px;
 	padding-bottom: 35px;
 }
-
 
 #footer {
 	background-color: #2f2f2f;
@@ -171,6 +169,7 @@ opacity: .8;
 filter:alpha(opacity=80); /* For IE8 and earlier */
 }
 
+/*scale face image*/
 img {
     width:auto;
     max-width:100%;
@@ -190,14 +189,14 @@ img {
 }
             
 #social {
-color: #fff;
--webkit-transform:scale(0.8);
-/* Browser Variations: */
--moz-transform:scale(0.8);
--o-transform:scale(0.8); 
--webkit-transition-duration: 0.5s; 
--moz-transition-duration: 0.5s;
--o-transition-duration: 0.5s;
+    font-size: 50px;
+    -webkit-transform:scale(0.8);
+    /* Browser Variations: */
+    -moz-transform:scale(0.8);
+    -o-transform:scale(0.8); 
+    -webkit-transition-duration: 0.5s; 
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
 }           
 
 .social-li:hover {
@@ -209,7 +208,7 @@ color: #fff;
 }
 
 .social-gh:hover {
-    color: #000000;
+    color: #FFFFFF;
 }
 
 .social-em:hover {
@@ -227,4 +226,8 @@ color: #fff;
     -webkit-border-radius: 8px;
        -moz-border-radius: 8px;
             border-radius: 8px;
-    }
+}
+
+.resbut {
+    margin-bottom: 80px;
+}
