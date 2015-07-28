@@ -92,8 +92,8 @@ a:before, a:after {
 }
 
 .navbar-brand {
-	font-size: 19px;
-	letter-spacing: 2px;
+	font-size: 18px;
+	letter-spacing: 1px;
     padding-top:13px;
 }
 
