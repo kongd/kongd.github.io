@@ -92,7 +92,7 @@ a:before, a:after {
 }
 
 .navbar-brand {
-	font-size: 17px;
+	font-size: 19px;
 	letter-spacing: 2px;
     padding-top:13px;
 }
@@ -138,7 +138,7 @@ img {
     color: #ffffff;
     font-size: 40px;
     padding-top: 5px;
-    letter-spacing: 3px;
+    letter-spacing: 5px;
     -moz-transform:scale(0.8);
     -o-transform:scale(0.8); 
     -webkit-transition-duration: 0.5s; 
