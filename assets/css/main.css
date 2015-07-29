@@ -40,13 +40,17 @@ h5 {
 h6 {
     color: white;
     margin-bottom: 10px;
+    font-size:12px;
 }
 
 .centered {
     text-align: center;
 }
 
-/* Links */
+/*Links*/
+a.social {
+    color: #FFFFFF;
+}
 a {
     color: #34B6F7;
     word-wrap: break-word;
@@ -57,6 +61,8 @@ a {
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
+
+
 
 a:hover, a:focus {
     color: #7b7b7b;
@@ -121,7 +127,8 @@ body {
 
 #footer {
 	background-color: #2f2f2f;
-	padding-top: 20px;
+	padding-top: 5px;
+    text-align: center;
 }
 
 #footer p {
@@ -162,7 +169,7 @@ img {
 }
 
 .social-gh:hover {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .social-em:hover {
