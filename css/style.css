@@ -1,0 +1,379 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  outline: 0px;
+}
+
+body {
+  background: #000000;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  line-height: 1.3;
+  -webkit-font-smoothing: antialiased;
+}
+
+#particles {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+#intro {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  padding: 0 20px;
+  width: 100%;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 65px;
+  font-weight: 100;
+  letter-spacing: 0.025em;
+  padding-top: 20px;
+  text-align:center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5%;
+}
+
+p {
+  margin: 0 0 30px 0;
+  font-size: 18px;
+}
+
+#scroll {
+  display: inline-block;
+  padding: 80px 50px;
+  border: 3px solid #fff;
+  width: 550px;
+  text-transform: uppercase;
+  letter-spacing: 0.030em;
+  font-size: 60px;
+  font-weight: 550;
+  line-height: 1;
+  color: #ffffff;
+
+}
+
+/*.btn:hover {
+  content: '↓';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+  color: #123456;
+}*/
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  .btn {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  h1 {
+    font-size: 48px;
+  }
+  h1::after {
+    height: 8px;
+  }
+
+  .btn {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #intro {
+    padding: 0 10px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  h1::after {
+    height: 6px;
+  }
+  p {
+    font-size: 18px;
+  }
+  .btn {
+    font-size: 20px;
+  }
+  #scroll {
+    padding: 50px 31px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  
+}
+
+@media only screen and (max-width: 530px) {
+  .nav{
+      display: none;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+    font-size: 28px;
+  }
+  h1::after {
+    height: 4px;
+  }
+  #scroll {
+    padding: 50px 31px;
+    width: 50px;
+    font-size: 1px;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-height: 500px ){
+  #scroll {
+    padding: 45px 25px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .arrow {
+    font-size: 20px;
+  }
+}
+
+.top {
+  position: relative;
+  display: table;
+  width: 100%;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-color:black;
+}
+
+#bottom {
+  position: relative;
+  display:table;
+  height: 100%;
+  width: 100%;
+  overflow:hidden;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0px;
+  margin: 1em 0;
+  padding: 0;
+}
+
+
+/* Navigation Bar*/
+.navbar {
+  color: #ffffff;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  height: 40px;
+  opacity: 0.7;
+  overflow: hidden;
+  background: #000;
+}
+
+ul.nav {
+  list-style-type: none;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.nav li.nav-li {
+  padding: 1.120%;
+  padding-bottom: 10px;
+  padding-top: 15px;
+}
+
+.nav li.nav-li:hover{
+  color:#33ccff;
+}
+
+li.nav-li {
+  display: inline;
+  vertical-align: bottom;
+  font-weight: 350;
+  font-size: 17px;
+  padding-top: 10px;
+  padding-right: 20px;
+}
+
+.menuitem{
+  padding-right: 30px;
+  display: inline !important;
+}
+
+a.white-link, a.white-link:hover{
+  color: #FFFFFF;
+  text-decoration:none !important; /*for underlines*/
+}
+
+/* Wrap content */
+#ww {
+  padding-top: 25px;
+  padding-bottom: 35px;
+}
+
+#footer {
+  background-color: #000000;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom:10px;
+
+  border-style: solid;
+  border-top: thick single;
+  border-top-width: 1px;
+}
+
+/*General Links*/
+a {
+    color: #33ccff;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -moz-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -ms-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -o-transition: color 0.2s ease-in, background 0.2s ease-in;
+    transition: color 0.2s ease-in, background 0.2s ease-in;
+}
+
+a:before, a:after {
+    -webkit-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -moz-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -ms-transition: color 0.2s ease-in, background 0.2s ease-in;
+    -o-transition: color 0.2s ease-in, background 0.2s ease-in;
+    transition: color 0.2s ease-in, background 0.2s ease-in;
+}
+
+/* Resume button */
+.btn-xlarge {
+  padding: 18px 28px;
+  font-size: 25px;
+  line-height: normal;
+  color: #fff;
+  width: 200px;
+  background-color: #33ccff;
+  -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+          border-radius: 8px;
+}
+
+.resbut {
+  margin-top:40px;
+  margin-bottom: 00px;
+  color: #33ccff;
+}
+
+/* profile image */
+#profile {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Down Arrow */
+#arrow{
+  font-size: 2em;
+  line-height: 80px;
+  margin-top: -70px;
+  text-align: center;
+}
+
+#arrow span {
+  color: #FFFFFF;
+}
+
+/*Social icons*/
+.social{
+  display: table;
+
+  width: 100%;
+  height: 100%;
+  min-height: 80%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+
+  font-size: 40px;
+  text-align:center;
+}
+
+.cover a{
+  /*color: white;*/
+  padding-left: 4%;
+  padding-right: 4%;
+}
