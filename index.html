@@ -3,8 +3,9 @@
 *Swap out social icons (http://thesabbir.github.io/simple-line-icons/)
 *text font change
 *mobile navbar
-*write in descriptions under experience
 *links not unhighlighting after clicking
+*fix viewport left:20% problem
+*fix all image clipping
 -->
 
 <!doctype html>
@@ -49,7 +50,6 @@
             <a class="white-link" href="#experience"><li class="nav-li">Experience</li></a><span class="menuitem"></span>
             <a class="white-link" href="#links"><li class="nav-li">Links</li></a><span class="menuitem"></span>
             <a class="white-link" href="https://www.dropbox.com/s/5smvdkx6mjw1u8o/davidkong.pdf?dl=0" target="_newtab"><li class="nav-li">R&eacute;sum&eacute;</li></a></span>
-
           </ul>
         </nav>
 
@@ -57,7 +57,7 @@
 
         <section id = "home">
           <div id="intro">
-            <a href="#about" class="btn" id="scroll" >DAVID KONG</a>
+            <a href="#about" class="btn" id="scroll">DAVID KONG</a>
           </div>
         </section>
 
@@ -80,11 +80,9 @@
 
                         <p> I'm a junior in computer science at the University of Michigan. My current interests include mobile, analytics, and entrepreneurship. More recently, I've been learning about design, from urban planning to digital products. 
 
-                        <p>This summer, I'm interning at <a href="http://squareup.com" target="_newtab">Square</a> in San Francisco.</p>
-
                         <p> At school, I previouly handled student affairs at <a href="http://esg.engin.umich.edu" target="_newtab"> Engineering Student Government (ESG)</a> and organized logistics for <a href="http://mhacks.org" target="_newtab">MHacks</a>. I'm currently a member of <a href="https://hkn.eecs.umich.edu/" target="_newtab">Eta Kappa Nu - BE honor society</a>. Outside of school, I enjoy sunny days, city exploring, biking, and trying new foods (all at the same time).</p>
 
-                        <p>In the past, I've worked on analytics at <a href="http://www.foresee.com" target="_newtab">ForeSee</a>, and on mobile projects at <a href="http://orbe.us" target="_newtab">Orbeus</a> and <a href="http://www.answers.com" target="_newtab"> Answers</a>. I'm most experienced in C++, Python, and Java.</p>
+                        <p>In the past, I've worked on analytics at <a href="http://www.foresee.com" target="_newtab">ForeSee</a>, and on mobile products at <a href="http://cash.me" target="_newtab">Square</a>, <a href="http://orbe.us" target="_newtab">Orbeus</a>, and <a href="http://www.answers.com" target="_newtab"> Answers</a>. I'm most experienced in C++, Python, and Java.</p>
 
                         <p>Thanks for stopping by! Feel free to <a href="#links"> reach out</a>.</p>
 
@@ -95,7 +93,7 @@
 
         <!-- Resume button -->
         <div class="resbut span7 text-center">
-            <a href="https://www.dropbox.com/s/5smvdkx6mjw1u8o/davidkong.pdf?dl=0" class="btn btn-primary btn-xlarge">Résumé</a>
+            <a href="https://www.dropbox.com/s/5smvdkx6mjw1u8o/davidkong.pdf?dl=0" class="btn btn-primary btn-xlarge" target="_newtab">Résumé</a>
         </div>
 
         <section class = "top" id = "experience">
@@ -112,7 +110,7 @@
                       <h4 class="timeline-title">Software Engineer Intern</h4>
                       
                       <small class="text-muted"><i class="glyphicon glyphicon-briefcase"></i>  Square, inc.</small><br>
-                      <small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> May 2016 </small><br>
+                      <small class="text-muted"><i class="glyphicon glyphicon-calendar"></i> May 2016 - Aug 2016 </small><br>
                       <small class="text-muted"><i class="glyphicon glyphicon-map-marker"></i> San Francisco, CA</small><br>
                     </div>
                     
@@ -120,9 +118,10 @@
                       <img src="img/square-white-min.png" style="width:100%;height:100%;">
                     </div>
                     
-
                     <div class="timeline-body">
-                      <p></p>
+                    <p>
+                    	I worked on the iOS app of Square Cash. I built a new Today view extension from the ground up, developing the UI, data retrieval frequency, lifecycle management, and compatibility across versions and orientations. I also expanded the recipient input field to be more flexible with multiple recipients and recipient tokenization. I also fixed numerous bugs, ranging from animation smoothness to autosearch frequency.
+                    </p>
                     </div>
                   </div>
                 </li>
@@ -142,7 +141,9 @@
                     </div>
                     
                     <div class="timeline-body">
-                      <p>Backend analytics.</p>
+                    <p>
+                    	I developed new csv/tsv parsing and processing scripts in Python to efficiently extract specified information from enormous data sets. Using AlchemyAPI, I was able to statistically establish a sentiment benchmark within and between various industries. Overall, I was able to format input data to reduce the number of calls to AlchemyAPI by 20%. I also worked on a web dashboard with dashing.io and d3.js to represent sentiment benchmark changes over time.
+                    </p>
                     </div>
                   </div>
                 </li>
@@ -163,7 +164,9 @@
                     </div>
                     
                     <div class="timeline-body">
-                      <p>Google glass projects.</p>
+                    <p>
+                    	I worked on a Google Glass app which utilizes an Orbeus API (ReKognition) to perform instant image detection and recognition. Users could simply look at their surroundings, and the Glass app could describe any detected facial details such as gender, age, race, and facial hair, as well as categorize objects in the scene. I also upated ReKognitionAPI to be compatible with the Glass platform.
+					</p>
                     </div>
                   </div>
                 </li>
@@ -184,7 +187,9 @@
                     </div>
                     
                     <div class="timeline-body">
-                      <p>Android development.</p>
+                    <p>
+                    	I worked on the initial Android app of Answers. I implemented a card-based UI that was used in numerous sections of the app, such as in the main newsfeed. I also worked on developing the instant search, about, and settings pages. Finally, I wrote and managed 200 comprehensive test cases, ensuring a high quality and bug free initial release. The current Android app has over 100,000 downloads, and has maintained a consistent 4 star rating.
+                    </p>
                     </div>
                 </li>
               </ul>

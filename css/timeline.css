@@ -11,13 +11,13 @@
   content: "   ";
   width: 5px;
   background-color: #33ccff; /* color */
-  left: 20%; /*moves bar*/
+  left: 15%; /*moves bar*/
   margin-left: -1.5px;
 }
 .timeline > li {
   margin-bottom: 40px;
   position: relative;
-  left: 20%;  /*moves icon*/
+  left: 15%;  /*moves icon*/
 }
 .timeline > li:before,
 .timeline > li:after {
@@ -37,7 +37,7 @@
   clear: both;
 }
 .timeline > li > .timeline-panel {
-  width: 60%;
+  width: 65%;
   float: left;
   border: 2px solid #33ccff;
   border-radius: 2px;
