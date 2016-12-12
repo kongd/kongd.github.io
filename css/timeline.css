@@ -56,9 +56,9 @@ body {
 }
 
 .content {
-  max-height: 20px;
+  max-height: 0px;
   padding: 50px 20px 0;
-  padding-top: 70px;
+  padding-top: 90px;
   border-color: transparent;
   border-width: 2px;
   border-style: solid;
@@ -82,18 +82,19 @@ body {
   margin-top: -20px;
 }
 .content:after {
-  border-right-color: #f2f2f2
-;
+  border-right-color: #f2f2f2;
   border-width: 17px;
   top: 50%;
   margin-top: -17px;
 }
 .content p {
-  max-height: 0;
+  max-height: 0px;
   color: transparent;
   text-align: justify;
   padding-left:0px;
   padding-bottom:5px;
+  margin-top:0px;
+  font-size:0px;
 }
 #title {
   font-size: 1.3em;
@@ -121,11 +122,14 @@ body {
   padding-left:60%;
   padding-top: 3%;
   padding-right:7%;
-  display:block;
+  /*display:block;*/
   max-width: 300px;
   float:right;
+  z-index: 100;
+  cursor: pointer;
   transition: transform 0.2s linear;
 }
+
 .radio {
   display: none;
 }
@@ -159,6 +163,7 @@ body {
 .radio:checked ~ .content p {
   max-height: 200px;
   color: #1f3d7a;
+  font-size: 16px;
   transition: color 0.3s linear 0.3s;
 }
 
