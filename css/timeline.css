@@ -135,7 +135,7 @@ body {
 }
 
 .radio:checked + .relative .circle {
-  background: #1f3d7a;
+  background: #f98262;
 }
 
 .radio:checked + .relative #title {
