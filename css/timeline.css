@@ -135,7 +135,7 @@ body {
 }
 
 .radio:checked + .relative .circle {
-  background: #f98262;
+  background: #1f3d7a;
 }
 
 .radio:checked + .relative #title {
@@ -191,7 +191,7 @@ body {
   }
 
   .content {
-    padding-top: 45px;
+    padding-top: 75px;
     border-color: #1f3d7a;
     padding-bottom:5px;
 
@@ -218,10 +218,13 @@ body {
   transition: transform 0.2s linear;
   }
 
-  .radio:checked ~ .content p{
-  max-height:0px;
-  font-size:0px;
+  .radio:checked ~ .content {
+  max-height: 275px;
   }
+  .radio:checked ~ .content p {
+    max-height: 275px;
+  }
+
   .circle, .date{
     display: none;
   }
@@ -231,5 +234,31 @@ body {
 @media screen and (max-width: 460px) {
   #logos {
     display:none;
+  }
+  .radio:checked ~ .content {
+    transition:none;
+    transform:none;
+  }
+.radio:checked ~ .content p {
+    display:none;
+    transition:none;
+    font-size:0px;
+  }
+  #title {
+    transition:none;
+    cursor: default;
+  }
+  #subtitle {
+    transition:none;
+    cursor: default;
+  }
+  .radio:checked + .relative #title {
+    cursor: auto;
+    transform: translateX(0px);
+  }
+
+  .radio:checked + .relative #subtitle {
+    cursor: auto;
+    transform: translateX(0px);
   }
 }
