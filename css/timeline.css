@@ -58,7 +58,7 @@ body {
 .content {
   max-height: 0px;
   padding: 50px 20px 0;
-  padding-top: 90px;
+  padding-top: 85px;
   border-color: transparent;
   border-width: 2px;
   border-style: solid;
@@ -239,7 +239,7 @@ body {
     transition:none;
     transform:none;
   }
-.radio:checked ~ .content p {
+  .radio:checked ~ .content p {
     display:none;
     transition:none;
     font-size:0px;
