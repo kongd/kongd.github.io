@@ -5,11 +5,11 @@
 /* -------------------------------------
  * General Style
  * ------------------------------------- */
-@import url(http://fonts.googleapis.com/css?family=Noto+Sans);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
 body {
   padding: 0px;
   font-size: 100%;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #1f3d7a;
   background: #f2f2f2;
 }
