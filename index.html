@@ -10,7 +10,6 @@ Better mobile view - timeline improvements - logos + content + date
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="David Kong">
-  <meta name="keywords" content="David,Kong,Google,UMich,Michigan,Computer,Science,Answers,Orbeus,Square,Software,Engineer,Intern,Amazon,ReKognition">
   <meta name="author" content="David Kong">
   <link href="css/timeline.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
@@ -42,113 +41,24 @@ Better mobile view - timeline improvements - logos + content + date
   <script src="squares.js" type="text/javascript"></script>
 
   <section id="about">
-    <h2>About</h2>
+    <h3>I am a software engineer at Square on the Customers Directory team. My team builds products and platforms that help Square sellers build and manage relationships with their buyers.</h3>
 
-    <h3>I'm a senior in computer science at the University of Michigan. My current interests include payments, analytics, and product development. Recently, I've been learning more about digital design.</h3>
-
-    <h3>At school, I'm involved in <a href="http://esg.engin.umich.edu" target="_newtab"> Engineering Student Government</a>, <a href="http://mhacks.org" target="_newtab">MHacks</a>, and <a href="https://hkn.eecs.umich.edu/" target="_newtab">Eta Kappa Nu</a>.</h3>
-
-    <h3>I'm pretty experienced with C++ and Python, and have some experience with Java and Angular.</h3>
+    <h3>I was born and raised, and still live in the San Francisco Bay Area.</h3>
     
-    <h3>Outside of school, I enjoy exploring cities and taking amateur <a href="https://500px.com/davidxkong" target="_newtab">photos</a>. I'm also passionate about politics and <a href="http://urbankchoze.blogspot.ca/2014/04/japanese-zoning.html"> effective city zoning</a>.</h3>
+    <h3>Outside of work, I enjoy exploring cities and taking amateur <a href="https://500px.com/davidxkong" target="_newtab">photos</a>. </h3>
 
     <h3>My resume can be viewed <a href="https://www.dropbox.com/s/5smvdkx6mjw1u8o/davidkong.pdf?dl=0" target="_newtab">here</a>.</h3>
   </section>
-
-  <h2>Work Experience</h2>
-  <div id='timeline-limit'>
-    <ul id='timeline'>
-      <li class='work'>
-        <input class='radio' id='work5' name='works' type='radio'>
-        <div class="relative">
-            <label for='work5' id = "title">Software Engineer Intern</label>
-            <label for='work5' id = "subtitle"><a href="https://www.google.com">Google</a> | <i>Mountain View, CA</i></label>
-            <label for='work5' id = "logos">
-              <img src="img/google-scale.png" style="width:100%;height:100%;">
-            </label>
-          <span class='date'>May 2017 - Aug 2017</span>
-          <span class='circle'></span>
-        </div>
-        <div class='content'>
-        <p>
-          I built a new tool to display payments risk feature metadata. This was a full-stack project, and involved a backend that served static files and handled HTTP requests, and a frontend in Angular. Textual metadata was displayed in a logical and visualy appealing way, and statistical metadata was visualized with Google Facets and d3. Multiple convenience features, such as autocompletion, were built in as well.
-        </p>
-        </div>
-      </li>
-      <li class='work'>
-        <input class='radio' id='work4' name='works' type='radio'>
-        <div class="relative">
-            <label for='work4' id = "title">Software Engineer Intern</label>
-            <label for='work4' id = "subtitle"><a href="https://www.square.com">Square</a> | <i>San Francisco, CA</i></label>
-            <label for='work4' id = "logos"><img src="img/square-scale.png" style="width:100%;height:100%;"></label>
-          <span class='date'>May 2016 - Aug 2016</span>
-          <span class='circle'></span>
-        </div>
-        <div class='content'>
-          <p>
-            I worked on the iOS app of Square Cash. I built a new Today view extension from the ground up, developing the UI, data retrieval frequency, lifecycle management, and compatibility across versions and orientations. I also expanded the recipient input field to be more flexible with multiple recipients and recipient tokenization. I also fixed numerous bugs, ranging from animation smoothness to autosearch frequency.
-          </p>
-        </div>
-      </li>
-      <li class='work'>
-        <input class='radio' id='work3' name='works' type='radio'>
-        <div class="relative">
-            <label for='work3' id = "title">Software Engineer Intern</label>
-            <label for='work3' id = "subtitle"><a href="http://www.foresee.com">Foresee</a> | <i>Mountain View, CA</i></label>
-            <label for='work3' id = "logos"><img src="img/foresee-scale.png" style="width:100%;height:100%;"></label>
-          <span class='date'>May 2015 - Aug 2015</span>
-          <span class='circle'></span>
-        </div>
-        <div class='content'>
-          <p>
-            I developed new csv/tsv parsing and processing scripts in Python to efficiently extract specified information from enormous data sets. Using AlchemyAPI, I was able to statistically establish a sentiment benchmark within and between various industries. Overall, I was able to format input data to reduce the number of calls to AlchemyAPI by 20%. I also worked on a web dashboard with dashing.io and d3.js to represent sentiment benchmark changes over time.
-          </p>
-        </div>
-      </li>
-      <li class='work'>
-        <input class='radio' id='work2' name='works' type='radio'>
-        <div class="relative">
-            <label for='work2' id = "title">Software Engineer Intern</label>
-            <label for='work2' id = "subtitle"><a href="https://aws.amazon.com/rekognition/">Orbeus</a> | <i>Sunnyvale, CA</i></label>
-            <label for='work2' id = "logos"><img src="img/orbeus-scale.png" style="width:100%;height:100%;"></label>
-          <span class='date'>July 2014 - Aug 2014</span>
-          <span class='circle'></span>
-        </div>
-        <div class='content'>
-          <p>
-            I worked on a Google Glass app which utilizes an Orbeus API (ReKognition) to perform instant image detection and recognition. Users could simply look at their surroundings, and the Glass app could describe any detected facial details such as gender, age, race, and facial hair, as well as categorize objects in the scene. I also updated ReKognitionAPI to be compatible with the Glass platform. ReKognition is now part of AWS.
-          </p>
-        </div>
-      </li>
-      <li class='work'>
-        <input class='radio' id='work1' name='works' type='radio'>
-        <div class="relative">
-            <label for='work1' id = "title">Software Engineer Intern</label>
-            <label for='work1' id = "subtitle"><a href="https://www.answers.com">Answers</a> | <i>Mountain View, CA</i></label>
-            <label for='work1' id = "logos"><img src="img/answers-scale.png" style="width:100%;height:100%;"></label>
-          <span class='date'>June 2013 - Aug 2013</span>
-          <span class='circle'></span>
-        </div>
-        <div class='content'>
-          <p>
-            I worked on the initial Android app of Answers. I implemented a card-based UI that was used in numerous sections of the app, such as in the main newsfeed. I also worked on developing the instant search, about, and settings pages. Finally, I wrote and managed 200 comprehensive test cases, ensuring a high quality and bug free initial release. The current Android app has over 100,000 downloads, and has maintained a consistent 4 star rating.
-          </p>
-        </div>
-      </li>
-    </ul>
-  </div>
-
-  <h2>Contact</h2>
-  </body>
+</body>
 
   <footer>
-  <div id='social' align="center">
-    <a href="https://www.linkedin.com/in/davidxkong"><i class="fa fa-linkedin-square"></i></a>
-    <a href="https://github.com/kongd"><i class="fa fa-github-square"></i></a>
-    <a href="https://www.twitter.com/davidxkong"><i class="fa fa-twitter-square"></i></a>
-    <a href="https://www.instagram.com/kongquerer"><i class="fa fa-instagram"></i></a>
-    <a href="mailto:kongxdavidx+web@gmail.com"><i class="fa fa-envelope-square"></i></a>
-  </div>
+    <div id='social'>
+      <a href="https://www.linkedin.com/in/davidxkong"><i class="fa fa-linkedin-square"></i></a>
+      <a href="https://github.com/kongd"><i class="fa fa-github-square"></i></a>
+      <a href="https://www.twitter.com/davidxkong"><i class="fa fa-twitter-square"></i></a>
+      <a href="https://www.instagram.com/kongquerer"><i class="fa fa-instagram"></i></a>
+      <a href="mailto:kong.x.davidx@gmail.com"><i class="fa fa-envelope-square"></i></a>
+    </div>
   </footer>
 
 </html>

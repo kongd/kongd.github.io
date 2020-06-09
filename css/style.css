@@ -17,16 +17,18 @@ a:hover {
   z-index: 1;
   overflow: hidden;
   padding-top:0px;
-  padding-bottom: 10px;
+  padding-bottom:50px;
 }
+
 h1 {
   font-size: 90px;
   color: #f2f2f2;
   margin-left: 30%;
   margin-top: 50px;
   margin-bottom: 0px;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
 }
+
 #draw {
   position: absolute;
   width: 100%;
@@ -53,7 +55,7 @@ h2 {
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 21px;
   margin-left: 30%;
   margin-bottom: 25px;
   max-width: 750px;
@@ -65,9 +67,10 @@ footer {
   width:100%;
   height:100%;
   padding-bottom:20px;
+  margin-top:150px;
 }
 footer a {
-  font-size: 70px;
+  font-size: 50px;
   color: #1f3d7a;
   padding-left:3%;
 }
